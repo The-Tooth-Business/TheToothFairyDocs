@@ -24,17 +24,19 @@
 
 ##Tech Stack:
 
-Front-end: HTML5, CSS3, SCSS, Embedded Ruby, Bootstrap, Javascript.
+Front-end: HTML5, CSS3, SCSS, REACT.js, Material-ui, Javascript, JSX.
 
-Back-end: Ruby 2.6.3, Ruby on Rails 5.2.4.
+Back-end: Node, Express
 
-Database: Postgresql, D-Beaver.
+Database: Mongo, Mongoose
 
-Deployment: Heroku.
+Deployment: 
+Back-end: Heroku
+Front-end: Netlify
 
-Biz Tools: Trello, Slack.
+Project-management tools: Trello, Discord
 
-Utilities: Stripe, Devise, Ultrahook, AWS S3.
+Utilities: 
 
-DevOps: Git, Github, VS Code, Bundler, Balsamiq.
+DevOps: Git, Github, VS Code
 
