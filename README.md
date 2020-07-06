@@ -71,6 +71,8 @@ The app will have different sets of features for the two target groups.
 
 #### Application Architecture Diagram
 
+<img src="Application-Architecture-Diagram.jpg" alt="alt text" title="Application Architecture Diagram" />
+
 ****************
 
 #### Wireframes
@@ -83,12 +85,16 @@ We then created a Github organisation with 3 repos, one for docs, one for front-
 
 We will be responsible for marking off the tasks on the Trello as we complete them and adding new tasks as they arise.
 
+We will be working mostly alone, but will pair program some elements using Discord.
+
 #### Screenshots
+<img src="Trello-screenshots/05071207.png" alt="First Trello showing start of project management" />
+
 
 ****************
 #### Tech Stack:
 
-**Front-end**: HTML5, CSS3, REACT.JS, Javascript, JSX, Material-ui.
+**Front-end**: HTML5, CSS3, REACT.JS, Javascript, JSX, AXIOS, Material-ui.
 
 **Back-end**: Node, ExpressJS
 
@@ -98,11 +104,11 @@ We will be responsible for marking off the tasks on the Trello as we complete th
 Back-end: Heroku
 Front-end: Netlify
 
-**Testing**: Cypress
+**Testing**: Cypress, Mocha
 
 **Project-management tools**: Trello, Discord
 
 **Utilities**: Draw.io, 
 
-**DevOps**: Git, Github, VS Code, AXIOS
+**DevOps**: Git, Github, VS Code
 
