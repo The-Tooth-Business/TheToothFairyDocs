@@ -1,11 +1,11 @@
 
-#Catherine Callcott-Stevens and Louise Flanagan T3A1
+# **Catherine Callcott-Stevens and Louise Flanagan T3A1**
 ********************************
-##The Tooth Business: MERN full-stack app assignment
+## **The Tooth Business: MERN full-stack app assignment**
 *****************************************
 
 
-###Purpose
+### Purpose
 
 We were approached by our client, the Fairy in Charge(FIC) of Tooth Inc. aka The Tooth Fairy, to create a new full-stack web application. She chose our team to handle this Top Secret project because of our reputation for professionalism and safeguarding sensitive data, mostly thanks to a referral from Santa Claus after we digitised his 'Naughty and Nice List".
 
@@ -15,10 +15,10 @@ Before hiring us to make this app there was no one place to manage Tooth Inc. If
 
 While moving from an esoteric to a more practical management system the Tooth Fairy realised, in collaboration with us, that she could streamline her company by moving it online. We decided on a highly secure dashboard where she can view all the daily orders, how many dollars will be outgoing, and the total balance of Tooth Inc. It will also show how many deliveries will be done on each continent and give an average rating of each region's manager based on parent reviews. 
 
-####Target Audience
+#### Target Audience
 This app will be aimed at parents and carers of children of teeth losing age, as well as the FIC of Tooth Inc.
 
-####User Stories
+#### User Stories
 
 1. As a busy parent I need to organise a Tooth Fairy pick up quickly and easily. Being able to login to a portal where all my details are saved saves me a lot of time.
 
@@ -42,7 +42,7 @@ This app will be aimed at parents and carers of children of teeth losing age, as
 
 11. As the Fairy in Charge I need to easily see how each continent's manager is rating so I can quickly take steps to maintain my good reputation.
 
-####Functionality/ Features
+#### Functionality/ Features
 
 The app will have different sets of features for the two target groups.
 **Parents**:
@@ -61,18 +61,18 @@ The app will have different sets of features for the two target groups.
 - Summary of number of bookings by continent 
 - Ratings for each continent manager
 
-####Dataflow Diagram
+#### Dataflow Diagram
 
-####Application Architecture Diagram
+#### Application Architecture Diagram
 
-####Wireframes
+#### Wireframes
 
-####Project Management 
+#### Project Management 
 
-####Screenshots
+#### Screenshots
 
 
-####Tech Stack:
+#### Tech Stack:
 
 **Front-end**: HTML5, CSS3, REACT.JS, Javascript, JSX, Material-ui.
 
