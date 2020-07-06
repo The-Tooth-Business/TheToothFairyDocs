@@ -52,7 +52,7 @@ This app will be aimed at parents and carers of children of teeth losing age, as
 
 #### Functionality/ Features
 
-The app will have different sets of features for the two target groups.
+The app will have different sets of features for the two target groups. These will be acheived by working in sprints.
 **Parents**:
 - Login
 - Previous booking history
@@ -68,7 +68,31 @@ The app will have different sets of features for the two target groups.
 - Daily outgoing 
 - Summary of number of bookings by continent 
 - Ratings for each continent manager
-*********
+
+****************
+#### Sprint Planning
+At the start of this project we had a scrum until we came up with a concept that we liked. We then sketched out a rough architecture and database plan, and created a Trello board with tasks that need to be completed in order to finish the docs. Each task was allocated according to skill and fair share of the work. 
+
+We then created a Github organisation with 3 repos, one for docs, one for front-end React and back-end. For this project we will be using a forking workflow as our version control. We will work on branches off a development branch and request to merge into the master. Each merge request will be checked by the other partner before approving the merge. 
+
+We will be responsible for marking off the tasks on the Trello as we complete them and adding new tasks as they arise.
+
+We will be working mostly alone, but will pair program some elements using Discord.
+
+The building of the app will be divided into 5 sprints.
+
+**Sprint 1**: Set up front and back-end framework
+**Sprint 2**: Login functionality
+**Sprint 3**: Create and Read functionality for parent and Tooth Fairy
+**Sprint 4**: Delete and Update funcionality
+**Sprint 5**: Daily outgoings and total balance of FIC's dashboard
+**Sprint 6**: Sprinkles if there is no sprint backlog. Styling and email functionality
+
+#### Screenshots
+<img src="Trello-screenshots/05071207.png" alt="First Trello showing start of project management" />
+
+
+****************
 #### Dataflow Diagram
 
 <img src="Data-Flow-Diagram.png" alt="Data Flow Diagram" />
@@ -83,21 +107,8 @@ The app will have different sets of features for the two target groups.
 
 #### Wireframes
 
-****************
-#### Project Management 
-At the start of this project we brainstormed ideas until we came up with a concept that we liked. We then sketched out a rough architecture and database plan, and created a Trello board with tasks that need to be completed in order to finish the docs. Each task was allocated according to skill and fair share of the work. 
+*********
 
-We then created a Github organisation with 3 repos, one for docs, one for front-end React and back-end. For this project we will be using a forking workflow as our version control. We will work off branches off a development branch and request to merge into the master. Each merge request will be checked by the other partner before approving the merge. 
-
-We will be responsible for marking off the tasks on the Trello as we complete them and adding new tasks as they arise.
-
-We will be working mostly alone, but will pair program some elements using Discord.
-
-#### Screenshots
-<img src="Trello-screenshots/05071207.png" alt="First Trello showing start of project management" />
-
-
-****************
 #### Tech Stack:
 
 **Front-end**: HTML5, CSS3, REACT.JS, Javascript, JSX, AXIOS, Material-ui.
