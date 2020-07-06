@@ -4,6 +4,10 @@
 ## **The Tooth Business: MERN full-stack app assignment**
 *****************************************
 
+### Deployed Version
+
+
+****************
 
 ### Purpose
 
@@ -66,6 +70,8 @@ The app will have different sets of features for the two target groups.
 - Ratings for each continent manager
 *********
 #### Dataflow Diagram
+
+<img src="Data-Flow-Diagram.png" alt="Data Flow Diagram" />
 
 ****************
 
