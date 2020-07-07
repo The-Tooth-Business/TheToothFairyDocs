@@ -107,6 +107,48 @@ The building of the app will be divided into 5 sprints.
 
 #### Wireframes
 
+Wireframes can also be viewed in higher definition via Figma: https://bit.ly/31OHS3K
+
+##### Desktop - Sign Up
+
+<img src="./wireframes/d-signup.png" alt="Desktop sign up wireframe" title="Desktop sign up wireframe" />
+
+##### Tablet - Sign Up
+
+<img src="./wireframes/t-signup.png" alt="Tablet sign up wireframe" title="Tablet sign up wireframe" />
+
+##### Desktop - Login
+
+<img src="./wireframes/d-login.png" alt="Desktop login wireframe" title="Desktop login wireframe" />
+
+##### Tablet - Login
+
+<img src="./wireframes/t-login.png" alt="Tablet login wireframe" title="Tablet login wireframe" />
+
+##### Desktop - Admin Dashboard
+
+<img src="./wireframes/d-admin-dash.png" alt="Desktop admin dashboard wireframe" title="Desktop admin dashboard wireframe" />
+
+##### Tablet - Admin Dashboard
+
+<img src="./wireframes/t-admin-dash.png" alt="Tablet admin dashboard wireframe" title="Tablet admin dashboard wireframe" />
+
+##### Desktop - Parent Dashboard
+
+<img src="./wireframes/d-parent-dash.png" alt="Desktop parent dashboard wireframe" title="Desktop parent dashboard wireframe" />
+
+##### Desktop - Tablet Dashboard
+
+<img src="./wireframes/t-parent-dash.png" alt="Tablet parent dashboard wireframe" title="Tablet parent dashboard wireframe" />
+
+##### Desktop - Make a booking / Edit a booking
+
+<img src="./wireframes/d-make-booking.png" alt="Desktop create and edit booking wireframe" title="Desktop create and edit booking wireframe" />
+
+##### Tablet - Make a booking / Edit a booking
+
+<img src="./wireframes/t-make-booking.png" alt="Tablet create and edit booking wireframe" title="Tablet create and edit booking wireframe" />
+
 *********
 
 #### Tech Stack:
