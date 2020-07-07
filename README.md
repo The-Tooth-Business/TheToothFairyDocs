@@ -113,41 +113,41 @@ Wireframes can also be viewed in higher definition via Figma: https://bit.ly/31O
 
 <img src="./wireframes/d-signup.png" alt="Desktop sign up wireframe" title="Desktop sign up wireframe" />
 
-##### Tablet - Sign Up
+##### Tablet & Mobile - Sign Up
 
-<img src="./wireframes/t-signup.png" alt="Tablet sign up wireframe" title="Tablet sign up wireframe" />
+<img src="./wireframes/tm-signup.png" alt="Tablet & mobile sign up wireframes" title="Tablet & mobile sign up wireframe" />
 
 ##### Desktop - Login
 
 <img src="./wireframes/d-login.png" alt="Desktop login wireframe" title="Desktop login wireframe" />
 
-##### Tablet - Login
+##### Tablet & Mobile - Login
 
-<img src="./wireframes/t-login.png" alt="Tablet login wireframe" title="Tablet login wireframe" />
+<img src="./wireframes/tm-login.png" alt="Tablet & mobile login wireframes" title="Tablet & mobile login wireframes" />
 
 ##### Desktop - Admin Dashboard
 
 <img src="./wireframes/d-admin-dash.png" alt="Desktop admin dashboard wireframe" title="Desktop admin dashboard wireframe" />
 
-##### Tablet - Admin Dashboard
+##### Tablet & Mobile- Admin Dashboard
 
-<img src="./wireframes/t-admin-dash.png" alt="Tablet admin dashboard wireframe" title="Tablet admin dashboard wireframe" />
+<img src="./wireframes/tm-admin-dash.png" alt="Tablet & mobile admin dashboard wireframes" title="Tablet & mobile admin dashboard wireframes" />
 
 ##### Desktop - Parent Dashboard
 
 <img src="./wireframes/d-parent-dash.png" alt="Desktop parent dashboard wireframe" title="Desktop parent dashboard wireframe" />
 
-##### Desktop - Tablet Dashboard
+##### Tablet & Mobile - Parent Dashboard
 
-<img src="./wireframes/t-parent-dash.png" alt="Tablet parent dashboard wireframe" title="Tablet parent dashboard wireframe" />
+<img src="./wireframes/tm-parent-dash.png" alt="Tablet & mobile parent dashboard wireframes" title="Tablet & mobile parent dashboard wireframes" />
 
 ##### Desktop - Make a booking / Edit a booking
 
 <img src="./wireframes/d-make-booking.png" alt="Desktop create and edit booking wireframe" title="Desktop create and edit booking wireframe" />
 
-##### Tablet - Make a booking / Edit a booking
+##### Tablet & Mobile - Make a booking / Edit a booking
 
-<img src="./wireframes/t-make-booking.png" alt="Tablet create and edit booking wireframe" title="Tablet create and edit booking wireframe" />
+<img src="./wireframes/tm-make-booking.png" alt="Tablet & mobile create and edit booking wireframes" title="Tablet & mobile create and edit booking wireframes" />
 
 *********
 
