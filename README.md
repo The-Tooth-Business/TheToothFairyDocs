@@ -125,7 +125,7 @@ Front-end: Netlify
 
 **Project-management tools**: Trello, Discord
 
-**Utilities**: Draw.io, 
+**Utilities**: Draw.io, Figma
 
 **DevOps**: Git, Github, VS Code
 
