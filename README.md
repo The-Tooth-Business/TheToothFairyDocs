@@ -4,7 +4,12 @@
 ## **The Tooth Business: MERN full-stack app assignment**
 *****************************************
 
-### Deployed Version
+### Client:
+- Deployed Staging App:
+- Deployed Production:
+### Server:
+- Deployed Staging App:
+- Deployed Production:
 
 
 ****************
@@ -29,7 +34,7 @@ This app will be aimed at parents and carers of children of teeth losing age, as
 
 1. As a busy parent I need to organise a Tooth Fairy pick up quickly and easily. Being able to login to a portal where all my details are saved saves me a lot of time.
 
-2. As a parent of an anxious child I need the peace of mind that when I book the Tooth Fairy there will definitly be a pick-up that same night. My child would be so dissapointed to find the tooth still under her pillow in the morning, so I need to receive confirmation that my booking has been successful.
+2. As a parent of an anxious child I need the peace of mind that when I book the Tooth Fairy there will definitely be a pick-up that same night. My child would be so disappointed to find the tooth still under her pillow in the morning, so I need to receive confirmation that my booking has been successful.
 
 3. As the parent in a chaotic family, we have been known to lose the occasional tooth before the tooth fairy can collect it. In these cases it is reassuring to know that I can login to my personal portal and cancel a tooth collection. 
 
@@ -52,18 +57,26 @@ This app will be aimed at parents and carers of children of teeth losing age, as
 
 #### Functionality/ Features
 
-The app will have different sets of features for the two target groups. These will be acheived by working in sprints.
-**Parents**:
-- Login
-- Previous booking history
-- Booking form
-- Update button
-- Delete button
-- Rating and review form
+The app will have different sets of features for the two target groups. These will be achieved by working in sprints.
 
-**Tooth Fairy**:
+**All Users:**
+The app will require all users to be authenticated before allowing access to other site features. All users will login via the same login page regardless of administrator status and the same functionality will provide the ability to log out. New accounts for administrators cannot be created via the regular sign up feature and must be created by the Tooth Inc Data Manager for account protection.
 - Login
-- Order summary
+- Logout
+
+**Parents**:
+When authorised, parents will have access to a dashboard containing information regarding their bookings. 
+- Create an account
+- Displayed information that belong to them only
+- Previous booking history
+- Booking form to create a new booking
+- Update a booking
+- Delete a booking
+- Rate and review a booking via a review form
+
+**Fairy In Charge**:
+When administrator authorised, the FIC will have access to an administrator dashboard where she can see information regarding all bookings in the database for the past 24 hours.
+- Total order summary
 - Total balance
 - Daily outgoing 
 - Summary of number of bookings by continent 
@@ -72,8 +85,6 @@ The app will have different sets of features for the two target groups. These wi
 ****************
 #### Sprint Planning
 At the start of this project we had a scrum until we came up with a concept that we liked. We then sketched out a rough architecture and database plan, and created a Trello board with tasks that need to be completed in order to finish the docs. Each task was allocated according to skill and fair share of the work. 
-
-We then created a Github organisation with 3 repos, one for docs, one for front-end React and back-end. For this project we will be using a forking workflow as our version control. We will work on branches off a development branch and request to merge into the master. Each merge request will be checked by the other partner before approving the merge. 
 
 We will be responsible for marking off the tasks on the Trello as we complete them and adding new tasks as they arise.
 
@@ -84,15 +95,32 @@ The building of the app will be divided into 5 sprints.
 **Sprint 1**: Set up front and back-end framework
 **Sprint 2**: Login functionality
 **Sprint 3**: Create and Read functionality for parent and Tooth Fairy
-**Sprint 4**: Delete and Update funcionality
+**Sprint 4**: Delete and Update functionality
 **Sprint 5**: Daily outgoings and total balance of FIC's dashboard
 **Sprint 6**: Sprinkles if there is no sprint backlog. Styling and email functionality
 
 #### Screenshots
+
+Screenshots of our Trello board can be found organised in date order in the Trello-screenshots directory within this repo.
+Please also view the Trello board live here: https://trello.com/b/cEoPCrvP/the-tooth-business
+
 <img src="Trello-screenshots/05071207.png" alt="First Trello showing start of project management" />
 
+****************
+#### Workflow 
+
+We will be working within a Github organisation across 3 repos, one for docs, one for front-end React and back-end node Express. 
+
+For this project we will be using a forking workflow as our version control. We will work on feature branches off of a local development branch and make pull requests into the main repo's development branch. Each merge request will be checked by the other partner before approving the merge. An outline of our workflow is shown in the below diagram. 
+
+<img src="./forking-flow.jpg" alt="Diagrammatic example of our Git workflow" />
+
+We have decided to take theses steps so we can remain agile and add new features throughout the project based on the Fairy in Charge's feedback. We will be using a staging pipeline with Heroku and Netlify to setup CI/CD. Approved pull requests to the main repo development branch will automatically deploy to the staging version of the app and merges into master will automatically deploy to production. We have decided to combine CI/CD with an agile working flow to allow us to sufficiently test the application in various stages of it's lifecycle and protect production code. This will also allow us to get feedback from the Fairy In Charge based on the deployed staging app and make changes before pushing into production.
+
+Testing will be completed at various stages of the build in both the client and the server. Automated unit tests will be written and recorded for the server in a TDD fashion before pushing code to Origin. The staged deploys of server and client will both be manual tested independently and automated integration tested with Cypress once they are linked. Manual and automated tests will also be run and recorded on the production version of the application.
 
 ****************
+
 #### Dataflow Diagram
 
 <img src="Data-Flow-Diagram.png" alt="Data Flow Diagram" />
@@ -167,7 +195,7 @@ Front-end: Netlify
 
 **Project-management tools**: Trello, Discord
 
-**Utilities**: Draw.io, Figma
+**Utilities**: Draw.io, Figma, Visual Paradigm
 
 **DevOps**: Git, Github, VS Code
 
