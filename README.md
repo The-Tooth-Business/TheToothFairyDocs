@@ -8,8 +8,8 @@
 - Deployed Staging App:
 - Deployed Production:
 ### Server:
-- Deployed Staging App:
-- Deployed Production:
+- Deployed Staging App: https://staging-tooth-inc-server.herokuapp.com/
+- Deployed Production: https://tooth-inc.herokuapp.com/
 
 
 ****************
