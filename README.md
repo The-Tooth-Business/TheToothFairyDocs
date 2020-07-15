@@ -5,8 +5,8 @@
 *****************************************
 
 ### Client:
-- Deployed Staging App:
-- Deployed Production:
+- Deployed Staging App: https://development--lucid-wright-444fce.netlify.app/
+- Deployed Production: https://lucid-wright-444fce.netlify.app/
 ### Server:
 - Deployed Staging App: https://staging-tooth-inc-server.herokuapp.com/
 - Deployed Production: https://tooth-inc.herokuapp.com/
