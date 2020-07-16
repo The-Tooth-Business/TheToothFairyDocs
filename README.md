@@ -1,7 +1,7 @@
 
 # **Louise Flanagan and Catherine Callcott-Stevens T3A1**
 ********************************
-## **The Tooth Business: MERN full-stack app assignment**
+## **Tooth Inc: MERN full-stack app assignment**
 *****************************************
 
 ### Client:
@@ -16,7 +16,7 @@
 
 ### Purpose
 
-We were approached by our client, the Fairy in Charge(FIC) of Tooth Inc. aka The Tooth Fairy, to create a new full-stack web application. She chose our team to handle this Top Secret project because of our reputation for professionalism and safeguarding sensitive data, mostly thanks to a referral from Santa Claus after we digitised his 'Naughty and Nice List".
+We were approached by our client, the Fairy in Charge (FIC) of Tooth Inc. aka The Tooth Fairy, to create a new full-stack web application. She chose our team to handle this Top Secret project because of our reputation for professionalism and safeguarding sensitive data. This was mostly thanks to a referral from Santa Claus after we digitised his 'Naughty and Nice List".
 
 This web app will serve two main purposes. Firstly it will be a portal that parents and carers can use to book in a tooth pick-up on the day their child loses a baby tooth. Secondly, it will be a dashboard that the Tooth Fairy can login to manage her company. 
 
@@ -32,13 +32,15 @@ This app will be aimed at parents and carers of children of teeth losing age, as
 
 #### User Stories
 
+##### Initial Market Research
+
 1. As a busy parent I need to organise a Tooth Fairy pick up quickly and easily. Being able to login to a portal where all my details are saved saves me a lot of time.
 
 2. As a parent of an anxious child I need the peace of mind that when I book the Tooth Fairy there will definitely be a pick-up that same night. My child would be so disappointed to find the tooth still under her pillow in the morning, so I need to receive confirmation that my booking has been successful.
 
 3. As the parent in a chaotic family, we have been known to lose the occasional tooth before the tooth fairy can collect it. In these cases it is reassuring to know that I can login to my personal portal and cancel a tooth collection. 
 
-4. As a parent of twins my boys do everything together, sometimes even lose teeth. I need to be able to update my pick-up order from to one to two or more teeth.
+4. As a parent of twins my boys do everything together, sometimes even lose teeth. I need to be able to update my pick-up order from one to two or more teeth.
 
 5. As a parent that wants only the best for my child I need to be able to rate and review the service I have received from the Tooth Fairy.
 
@@ -52,7 +54,24 @@ This app will be aimed at parents and carers of children of teeth losing age, as
 
 10. As the Fairy In Charge at Tooth Inc, fiscal responsibility is a huge part of my job. Having a place where I can see with a glance how the organisation is positioned makes it easier for me to focus on what is really important. 
 
-11. As the Fairy in Charge I need to easily see how each continent's manager is rating so I can quickly take steps to maintain my good reputation.
+11. As the Fairy in Charge I need to easily see how each continents' manager is rating so I can quickly take steps to maintain my good reputation.
+
+##### After second consultation with FIC
+
+1. As the FIC I can use magic to increase online security, so spending extra money for heightened security is not a priority.
+
+2. As the FIC I operate in all the major currencies and need my dashboard to give me the daily Fairy $ exchange rate which is based on an amalgamation of the biggest currencies. 
+
+3. As the FIC I am a very visual person so I would like charts on my dashboard so I can easily understand the displayed data.
+
+##### Follow up Market Research
+
+1. As an anxious parent I need an email confirmation of booking, because I never believe the online confirmation page until it is backed up by email.
+
+2. As a babysitter I need to be able to register quickly if one of my charges loses a tooth on my watch so that I can get back to watching TV and eating free ice-cream.
+
+3. As a parent who wants to keep magic alive in my house for as long as possible I need a website that has an innocuous landing page in case my kid stumbles on it. 
+
 *********
 
 #### Functionality/ Features
@@ -77,7 +96,7 @@ When authorised, parents will have access to a dashboard containing information 
 **Fairy In Charge**:
 When administrator authorised, the FIC will have access to an administrator dashboard where she can see information regarding all bookings in the database for the past 24 hours.
 - Total order summary
-- Total balance
+- Total balance (in Fairy $)
 - Daily outgoing 
 - Summary of number of bookings by continent 
 - Ratings for each continent manager
